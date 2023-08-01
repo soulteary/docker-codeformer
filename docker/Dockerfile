@@ -11,5 +11,5 @@ RUN git clone https://github.com/sczhou/CodeFormer.git && \
 WORKDIR /app/CodeFormer/
 COPY assets ./assets
 COPY src/*.py ./
-RUN code-fix.py
+RUN python code-fix.py
 CMD ["python", "app.py"]
