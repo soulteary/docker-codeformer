@@ -133,8 +133,8 @@ app = gr.Interface(
         gr.File(label="Download the output", elem_id="download")
     ],
     title="CodeFormer - 强大的面部恢复和增强网络",
-    description="<center><img src='/file=/app/CodeFormer/assets/image/logo.png' alt='CodeFormer logo'></center><p>Official Gradio demo</b> for <a href='https://github.com/sczhou/CodeFormer' target='_blank'><b>Towards Robust Blind Face Restoration with Codebook Lookup Transformer (NeurIPS 2022)</b></a></p><p style='text-align: center'>source code: <a href='https://github.com/soulteary/docker-sdxl' target='_blank'>soulteary/docker-sdxl</a></p>",
-    article="<p style='text-align: center'>written by: <a href='https://github.com/soulteary/' target='_blank'>@soulteary</a></p>",       
+    description="<center><img src='/file=/app/CodeFormer/assets/image/logo.png' alt='CodeFormer logo'></center><p>Official Gradio demo</b> for <a href='https://github.com/sczhou/CodeFormer' target='_blank'><b>Towards Robust Blind Face Restoration with Codebook Lookup Transformer (NeurIPS 2022)</b></a></p><p style='text-align: center'>source code: <a href='https://github.com/soulteary/docker-codeformer' target='_blank'>soulteary/docker-codeformer</a></p>",
+    article="<p style='text-align: center'>written by: <a href='https://github.com/soulteary/' target='_blank'>@soulteary</a></p>",
     examples=[
         ['assets/image/01.png', True, True, 2, 0.7],
         ['assets/image/02.jpg', True, True, 2, 0.7],
