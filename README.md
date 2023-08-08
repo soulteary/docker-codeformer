@@ -30,7 +30,6 @@ scripts/build.sh
 模型应用运行需要的所有模型都在这里了，下载完毕后，解压缩模型压缩包，将 `CodeFormer`、`facelib`、`realesrgan` 三个目录放置到 `weights` 目录中，完整的项目结构这样的：
 
 ```bash
-.
 ├── LICENSE
 ├── README.md
 ├── assets
@@ -72,3 +71,7 @@ To create a public link, set `share=True` in `launch()`.
 ![](.github/case2.jpg)
 
 ![](.github/case3.jpg)
+
+## 相关项目
+
+- [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer)
